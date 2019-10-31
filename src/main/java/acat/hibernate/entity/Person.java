@@ -33,7 +33,7 @@ public class Person extends BaseEntity<Long> implements Serializable {
 	@Column(name = "email")
 	private String email;
 	
-	@Column(name = "phNo")
+	@Column(name = "ph_no")
 	private String phNo;
 	
 	@ManyToMany(mappedBy = "person", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
